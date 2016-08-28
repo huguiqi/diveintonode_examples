@@ -10,7 +10,8 @@
 >> 创建一个调用已经存在的属性和方法的函数，并生成另一个函数的用法
 
 如：
-     var isType = function(type){
+
+    var isType = function(type){
 		return function (obj){
 		return toString.call(obj) == '[object' + type +']';
     };
