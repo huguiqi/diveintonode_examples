@@ -15,7 +15,7 @@
 		return function (obj){
 		return toString.call(obj) == '[object' + type +']';
     };
-   }
+    }
 
 
 # nodejs实现异步的编码方式
